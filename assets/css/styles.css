@@ -293,3 +293,19 @@ header .follow a:hover{
     font-size: 1.7rem;
     padding-top: .5rem;
 }
+/* Services Section */
+
+.service .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.service .box-container .box{
+    flex:1 1 30rem;
+    text-align: center;
+    padding:2rem;
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
